@@ -1,0 +1,263 @@
+html {
+	box-sizing: border-box;
+	-web-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  color: #fff;
+  padding-left: 4px;
+}
+
+a:focus {
+  outline: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+:root {
+  --mdc-theme-primary: #413050;
+  --mdc-theme-secondary: #f57c00;
+}
+
+.mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::before,
+.mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::after {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.lighten {
+  opacity: .4;
+}
+
+.navLighten {
+  opacity: .7;
+}
+
+.rpLogo {
+  padding-top: 5px;
+}
+
+.navTabs {
+  padding-left: 48px;
+  font-size: 14px;
+}
+
+.nameSpan {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 18px 8px 5px 0px;
+  letter-spacing: .5px;
+}
+
+.nameDiv {
+  float: left;
+  padding-top: 3px;
+}
+
+.imgDiv {
+  float: right;
+  padding-left: 7px;
+  padding-top: -2px;
+}
+
+.navRight .mdc-toolbar__icon:last-of-type {
+  padding-right: 14px;
+}
+
+.popUpMenu {
+  margin: 60px 60px 0 -53px;
+}
+
+.popUpMenu2 {
+  margin: 32px 0 0 -88px;
+}
+
+.content {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mdc-permanent-drawer {
+  height: 100%;
+  width: 17.8%;
+  border-right: 1px solid #c9c9c9;
+  background-color: #f7f7f7;
+}
+
+.drawerA {
+  height: 40px;
+}
+
+.drawerA i {
+  padding-right: 7px;
+}
+
+.drawerA p {
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+main {
+  float: right;
+  width: 82.2%;
+  height: 100%;
+}
+
+.mdc-button {
+  text-transform: none;
+  height: 31px;
+  font-size: .850rem;
+  line-height: 2rem;
+  letter-spacing: .02em;
+  padding: 0 15px;
+}
+
+.modButton {
+  text-transform: none;
+  font-weight: 600;
+  height: 32px;
+  font-size: .875rem;
+  line-height: 2rem;
+  letter-spacing: -0.03em;
+  padding: 0 15px;
+  border: 1.3px solid #c1c1c1;
+  color: #666;
+  background-color: #f6f6f6;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.downCaret {
+  color: #333;
+  font-size: 1.3rem;
+  padding-left: 0px;
+  vertical-align: middle;
+}
+
+.modButton2 {
+  padding-right: 5px;
+}
+
+.mainDiv {
+  background-color: #e4e4e4;
+  height: 100%;
+  width: 100%;
+}
+
+.mainTitleDiv {
+  color: #4d4d4d;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 24px 15px 23px;
+}
+
+.mainTitle {
+  float: left;
+  margin: 0;
+  padding-left: 8px;
+  font-weight: lighter;
+  font-size: 21px;
+}
+
+.searchIcon {
+  color: #8d8d8d;
+  float: right;
+  padding-top: 4px;
+  padding-right: 11px;
+}
+
+.mainBoxDiv {
+  background-color: #fff;
+  margin: 0px 18px 0px 21px;
+}
+
+.mainList {
+  border: 1px solid #c9c9c9;
+  padding: 0px;
+}
+
+.mainList .mdc-list-item {
+  border-bottom: 1px solid #ebebeb;
+  height: 49px;
+}
+
+.mainList li:first-child {
+  background-color: #f6f6f6;
+  height: 58px;
+  padding-left: -5px;
+}
+
+.mainList li:nth-child(2) {
+  height: 58px;
+}
+
+.mdc-layout-grid {
+  width: 100%;
+}
+
+.buttonDiv {
+  padding-left: 16px;
+}
+
+.checkBoxDiv {
+  display: inline-block;
+}
+
+.checkBoxDiv div {
+  vertical-align: middle;
+  margin: 2px 0px;
+  float: left;
+}
+
+.checkBoxDiv p {
+  float: left;
+}
+
+.tableHeadDiv {
+  padding-left: 12px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #999;
+  font-weight: 500;
+}
+
+.tableHeadDiv p {
+  padding-left: 14px;
+}
+
+.tableBodyDiv {
+  padding-left: 12px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #444;
+  font-weight: 400;
+}
+
+.tableBodyDiv p {
+  padding-left: 14px;
+}
+
+.tableBodyMargin {
+  margin-left: 40px;
+}
+
+.tableData {
+  font-size: 13px;
+}
